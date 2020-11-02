@@ -1,0 +1,145 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+}
+
+#body-login {
+	background-color: #00909C;
+}
+
+/* Start css đăng nhập */
+#body-flex-login {
+	display: flex;
+	heigh: 100%;
+	justify-content: center;
+	aligh-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+	margin-top:80px;
+}
+
+#container-login-left {
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+	width: 380px;
+	height: 610px;
+	position: relative;
+}
+
+#background{
+	width: 380px;
+	height: 610px;
+}
+
+
+#header-login{
+	margin-top: 32px;
+}
+
+#text-logo{
+	font-size:48px;
+}
+
+#hint-text-logo{
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+#header-top-left{
+	text-align: center;
+	color: white;
+	position: absolute;
+	top:32px;
+	left:50px;
+}
+#header-bottom-left span{
+	margin-left:5px;
+}
+#header-bottom-left img{
+	margin-left:3px;
+}
+#header-bottom-left{
+	color:white;
+	position: absolute;
+	bottom: 50px;
+}
+
+img{
+	width:15px;
+	height:15px;
+}
+
+/* End css đăng nhập */
+#container-login-right {
+	padding: 16px 16px;
+}
+
+#header-top-right{
+	font-size:20px;
+	color:#B7B7B7;
+}
+
+.actived{
+	color:#DA7C79;
+}
+
+#container-login-right{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container-social-login{
+	align-self:flex-end;
+	margin-bottom: 16px;
+}
+#container-social-login img{
+	width:40px;
+	height:40px;
+	padding:5px;
+}
+.material-textinput{
+	height: 38px;
+	border: 0;
+	background-color: #D8D8D8;
+	width: 100%;
+}
+#container-center-login-right input[type=text]{
+	margin-top: 8px;
+}
+#container-center-login-right input[type=submit]{
+	margin-top: 24px;
+	color:white;
+	font-size:14px;
+}
+.input-icon-email{
+	background-image: url('../image/icon_email.jpg');
+  	background-repeat: no-repeat;
+    background-size: 10% 100%;
+    padding-left: 45px;
+    width: 90%;
+}
+.input-icon-password{
+	background-image: url('../image/icon_lock.jpg');
+  	background-repeat: no-repeat;
+    background-size: 10% 100%;
+    padding-left: 45px;
+    width: 90%;
+}
+.material-primary-button{
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000;
+}
